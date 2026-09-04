@@ -1,0 +1,7 @@
+interface:
+  display_name: "Üçersoft Enterprise Web"
+  short_description: "Üçersoft web deneyimini tasarla ve denetle"
+  brand_color: "#0874CE"
+  default_prompt: "Use $ucersoft-enterprise-web to improve or review an Üçersoft product page while preserving its brand and evidence boundaries."
+policy:
+  allow_implicit_invocation: true

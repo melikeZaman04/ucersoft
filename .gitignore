@@ -1,0 +1,37 @@
+.next/
+dist/
+node_modules/
+.agents/
+.codex/
+.openai/
+tsconfig.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ic proje belgeleri - public repoya gitmemeli
+docs/*.pdf
+docs/XSTUDIO-SUNUM-ANLATIM-METNI.md
+# Ic referanslar iceriyor
+docs/GORSEL-SANAT-YONETIMI.md
+
+# Ic degerlendirme sunumu - yayinda noindex, depoya girmez
+app/sunum/
+components/long-form-presentation.tsx
+docs/design-iterations/
+
+# Yerel calisma ciktilari
+output/
+.playwright-cli/
+
+# Arsivlenen kaynak dosyalar - sitede .webp turevleri kullanilir.
+# Koken kaydi (docs/VISUAL-ASSET-PROVENANCE.md) SHA-256 ile takip eder.
+docs/visual-sources/
+docs/font-sources/
+docs/brand-sources/
+docs/legacy-visuals/
